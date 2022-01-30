@@ -7,9 +7,10 @@ import {TypeOrmModule} from "@nestjs/typeorm";
       UsersModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'heroku_59fc92bfc06b38b',
+      database: 'heroku_59fc92bfc06b38b',
+      host: 'eu-cdbr-west-02.cleardb.net',
       username: 'bd30751719dba5',
-      database: 'ffa93e92624d8e1',
+      password: 'ffa93e92624d8e1',
       entities: ["dist/**/*.entity{.ts,.js}"],
       synchronize: true,
     }),
