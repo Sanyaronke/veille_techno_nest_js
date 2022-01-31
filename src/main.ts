@@ -8,7 +8,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
       .setTitle('Crud Users')
-      .setDescription('The description')
+      .setDescription('Simple tutorial for Crud')
       .setVersion('1.0')
       .build();
   const document = SwaggerModule.createDocument(app, config);
